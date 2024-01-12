@@ -43,21 +43,21 @@ function update() {
     document.getElementById("score").value = clickCount;
     document.title = clickCount + " Pistettä";
 
-    document.getElementById("ammountClick").innerHTML = "Sinulla on " + click + " Näpäyttäjää";
-    document.getElementById("costClick").innerHTML = ((click + 1) * 30) + " Pistettä";
+    document.getElementById("ammountClick").innerHTML = "Sinulla on " + click + " klikkaajaa";
+    document.getElementById("costClick").innerHTML = ((click + 1) * 30) + " pistettä";
 
-    document.getElementById("ammountSpray").innerHTML = "Sinulla on " + spray + " Suihketta";
-    document.getElementById("costSpray").innerHTML = ((spray + 1) * 100) + " Pistettä";
+    document.getElementById("ammountSpray").innerHTML = "Sinulla on " + spray + " Nalle Puhia";
+    document.getElementById("costSpray").innerHTML = ((spray + 1) * 100) + " pistettä";
 
-    document.getElementById("ammountDog").innerHTML = "Sinulla on " + dog + " Koiraa";
-    document.getElementById("costDog").innerHTML = ((dog + 1) * 500) + " Pistettä";
+    document.getElementById("ammountDog").innerHTML = "Sinulla on " + dog + " Hulkkia";
+    document.getElementById("costDog").innerHTML = ((dog + 1) * 500) + " pistettä";
 
     document.getElementById("clickspersecond").innerHTML = "Saat " + (((click) + (spray * 5) + (dog * 10)) * multiplier) + " Pistettä per/s";
 
     document.getElementById("ammountMultiplier").innerHTML = "Kertoja Päivitys x" + (multiplier + 1)
     document.getElementById("ammountMultiplier2").innerHTML = "x" + (multiplier + 1);
     document.getElementById("costMultiplier").innerHTML = ((multiplier + 1) * 100) + " Pistettä";
-    document.getElementById("currentMultiplier").innerHTML = "Tämänhetkinen Kertoja on x" + (multiplier);
+    document.getElementById("currentMultiplier").innerHTML = "Kertoin tällä hetkellä x" + (multiplier);
 
 }
 
