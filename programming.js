@@ -75,7 +75,7 @@ setInterval(timer, 1000)
 
 function rollOver(my_image) {
 
-    my_image.src = 'img/scaredcat.png';
+    my_image.src = 'img/esedu3.png';
 
 
 }
