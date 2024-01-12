@@ -82,7 +82,7 @@ function rollOver(my_image) {
 
 function mouseAway(my_image) {
 
-    my_image.src = "img/cat.png";
+    my_image.src = "img/esedu2.png";
 
 }
 
