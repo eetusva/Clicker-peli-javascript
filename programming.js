@@ -87,7 +87,7 @@ function mouseAway(my_image) {
 }
 
 function mouseClick(my_image) {
-    my_image.src = "img/angrycat.png";
+    my_image.src = "img/esedu1.png";
 }
 
 //lisäys, tallentaminen ja lataaminen
